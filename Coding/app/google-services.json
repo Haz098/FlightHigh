@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "283463805016",
+    "firebase_url": "https://flight-ticket-77207.firebaseio.com",
+    "project_id": "flight-ticket-77207",
+    "storage_bucket": "flight-ticket-77207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283463805016:android:06c7422407796dea55c22d",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283463805016-i8turfku7tuan76afnualattu8p3463u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "b709bc14557dcf6e7fae5ebf2efdb63ee25d778e"
+          }
+        },
+        {
+          "client_id": "283463805016-3e6ve684rtph2h01o1m48ovga2diaa7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC63c_9JbbgTB1SB2UE0k_tQbTAA1uZ3Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283463805016-3e6ve684rtph2h01o1m48ovga2diaa7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
