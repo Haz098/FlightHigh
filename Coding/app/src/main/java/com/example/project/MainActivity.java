@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
                 if(task.isSuccessful()){
 
                     progressDialog.dismiss();
-                    Toast.makeText(MainActivity.this, "Login Succesfull", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainActivity.this, SecondActivity.class));
+                    //Toast.makeText(MainActivity.this, "Login Succesfull", Toast.LENGTH_SHORT).show();
+                    checkEmailVerification();
                 }
 
                 else {
@@ -99,6 +99,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void checkEmailVerification(){
+        FirebaseUser firebaseUser = firebaseAuth.getInstance().getCurrentUser();
+        Boolean emailFlag = firebaseUser.isEmailVerified();
+
+        if(emailFlag){
+            finish();
+           startActivity(new Intent(MainActivity.this, SecondActivity.class));
+        }
+
+        else{
+            Toast.makeText(this, "Verify Your Email", Toast.LENGTH_SHORT).show();
+            firebaseAuth.signOut();
+        }
     }
 
 }
