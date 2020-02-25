@@ -52,6 +52,7 @@ public class RegistrationActivity extends AppCompatActivity {
                             if(task.isSuccessful()){
                                 //sendEmailVerification();
                                 sendUserData();
+                                firebaseAuth.signOut();
                                 Toast.makeText(RegistrationActivity.this, "Succesfully Registered, Upload Complete", Toast.LENGTH_SHORT).show();
                                 finish();
                                 startActivity(new Intent(RegistrationActivity.this, MainActivity.class));
