@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">FlightHigh</string>
+
+    <array name="destination">
+        <item>Sepang, Malaysia</item>
+        <item>Seoul, South Korea</item>
+        <item>Bangkok, Thailand</item>
+    </array>
+
+    <array name="departure">
+        <item>Seoul, South Korea</item>
+        <item>Bangkok, Thailand</item>
+        <item>Sepang, Malaysia</item>
+    </array>
+
+    <array name="seats">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+        <item>A5</item>
+        <item>A6</item>
+        <item>A7</item>
+        <item>A8</item>
+        <item>A9</item>
+        <item>A10</item>
+
+
+    </array>
+
+    <array name="classType">
+        <item>First Class</item>
+        <item>Business Class</item>
+        <item>Premium Economy</item>
+        <item>Economy Class</item>
+    </array>
+
 </resources>

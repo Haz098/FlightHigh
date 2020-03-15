@@ -4,23 +4,30 @@
 
     <item
         android:id = "@+id/logoutMenu"
-        android:orderInCategory="100"
-        app:showAsAction="always"
+        android:orderInCategory="400"
+        app:showAsAction="never"
         android:title="Logout">
     </item>
 
     <item
+        android:id = "@+id/aboutUs"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="About Us">
+    </item>
+
+    <item
         android:id = "@+id/profileMenu"
-        android:orderInCategory="200"
+        android:orderInCategory="100"
         app:showAsAction="never"
         android:title="Profile">
     </item>
 
     <item
-        android:id = "@+id/refreshMenu"
-        android:orderInCategory="300"
+        android:id = "@+id/bookingTicket"
+        android:orderInCategory="200"
         app:showAsAction="never"
-        android:title="Refresh">
+        android:title="Book Ticket">
     </item>
 
 </menu>
