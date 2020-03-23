@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0C0C0C"
+    android:background="#6B82B1FF"
     tools:context=".ProfileActivity">
 
     <ImageView
@@ -23,9 +23,11 @@
         android:id="@+id/tvProfileName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name:"
-        android:textColor="#FFFFFF"
+        android:fontFamily="@font/abhaya_libre"
+        android:text="Name :"
+        android:textColor="#DA8E24AA"
         android:textSize="28dp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,8 +38,9 @@
         android:id="@+id/tvProfileAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Age:"
-        android:textColor="#FFFFFF"
+        android:fontFamily="@font/abhaya_libre"
+        android:text="Age :"
+        android:textColor="#DA8E24AA"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,9 +53,11 @@
         android:id="@+id/tvProfileEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email"
-        android:textColor="#FFFFFF"
+        android:fontFamily="@font/abhaya_libre"
+        android:text="Email :"
+        android:textColor="#DA8E24AA"
         android:textSize="28dp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -62,27 +67,31 @@
 
     <Button
         android:id="@+id/btnProfileUpdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="314dp"
+        android:layout_height="42dp"
         android:background="#00B8D4"
+        android:fontFamily="serif"
         android:text="Edit"
+        android:textColor="#FFFDFD"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvProfileEmail"
-        app:layout_constraintVertical_bias="0.211" />
+        app:layout_constraintVertical_bias="0.375" />
 
     <Button
         android:id="@+id/btnChangePassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="314dp"
+        android:layout_height="42dp"
         android:background="#00B8D4"
+        android:fontFamily="serif"
         android:text="Change Password"
+        android:textColor="#FFFDFD"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnProfileUpdate" />
+        app:layout_constraintTop_toBottomOf="@+id/btnProfileUpdate"
+        app:layout_constraintVertical_bias="0.356" />
 </androidx.constraintlayout.widget.ConstraintLayout>
