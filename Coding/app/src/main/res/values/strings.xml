@@ -2,15 +2,35 @@
     <string name="app_name">FlightHigh</string>
 
     <array name="destination">
-        <item>Sepang, Malaysia</item>
-        <item>Seoul, South Korea</item>
-        <item>Bangkok, Thailand</item>
+        <item>Seoul - Incheon (ICN)</item>
+        <item>Kota Bharu (KBR)</item>
+        <item>Okinawa - Naha (OKA)</item>
+        <item>Kuala Lumpur (KUL)</item>
+        <item>Beijing - Capital (PEK)</item>
+        <item>Melbourne - Avalon (AVV)</item>
+        <item>Pattaya (UTP)</item>
+        <item>Yogyakarta - Adi Sucipto (JOG)</item>
+        <item>Brunei (BWN)</item>
+        <item>Wuhan (WUH)</item>
+        <item>Narathiwat (NAW)</item>
+        <item>Bali (DPS)</item>
+        <item>Osaka - Kansai (KIX)</item>
     </array>
 
     <array name="departure">
-        <item>Seoul, South Korea</item>
-        <item>Bangkok, Thailand</item>
-        <item>Sepang, Malaysia</item>
+        <item>Seoul - Incheon (ICN)</item>
+        <item>Melbourne - Avalon (AVV)</item>
+        <item>Kota Bharu (KBR)</item>
+        <item>Kuala Lumpur (KUL)</item>
+        <item>Yogyakarta - Adi Sucipto (JOG)</item>
+        <item>Beijing - Capital (PEK)</item>
+        <item>Brunei (BWN)</item>
+        <item>Narathiwat (NAW)</item>
+        <item>Osaka - Kansai (KIX)</item>
+        <item>Bali (DPS)</item>
+        <item>Pattaya (UTP)</item>
+        <item>Wuhan (WUH)</item>
+        <item>Okinawa - Naha (OKA)</item>
     </array>
 
     <array name="seats">

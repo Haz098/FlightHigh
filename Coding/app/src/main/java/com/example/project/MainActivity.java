@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 if(task.isSuccessful()){
 
                     progressDialog.dismiss();
-                    //Toast.makeText(MainActivity.this, "Login Succesfull", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                     checkEmailVerification();
                 }
 
