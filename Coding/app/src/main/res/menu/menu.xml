@@ -10,13 +10,6 @@
     </item>
 
     <item
-        android:id = "@+id/aboutUs"
-        android:orderInCategory="300"
-        app:showAsAction="never"
-        android:title="About Us">
-    </item>
-
-    <item
         android:id = "@+id/profileMenu"
         android:orderInCategory="100"
         app:showAsAction="never"

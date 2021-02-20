@@ -68,9 +68,9 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(new Intent(SecondActivity.this, bookingTicket.class));
                 break;
 
-            case R.id.aboutUs:
-                startActivity(new Intent(SecondActivity.this, aboutUs.class));
-                break;
+            //case R.id.aboutUs:
+              //  startActivity(new Intent(SecondActivity.this, aboutUs.class));
+             //   break;
 
         }
         return super.onOptionsItemSelected(item);

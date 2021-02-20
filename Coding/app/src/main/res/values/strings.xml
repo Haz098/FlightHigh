@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FlightHigh</string>
+    <string name="app_name">Flight High</string>
 
     <array name="destination">
         <item>Seoul - Incheon (ICN)</item>
@@ -44,7 +44,6 @@
         <item>A8</item>
         <item>A9</item>
         <item>A10</item>
-
 
     </array>
 
